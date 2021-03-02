@@ -1,41 +1,68 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .services-section{
     text-align: center;
-   
+    background-color: #cee6ea;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-#main-div{
+.main-div{
    display: flex;
    justify-content: center;
-   position: relative;
+   align-items: center;
+   border: 1px solid;
+   width: 100%;
+   height: 33rem;
 }
 .img{
-    width: 170px; height: 170px;
-    margin: 5px;
-}
-#title{
-    margin: 20px;
+    height: 170px;
+    object-fit: cover;
+    background-color: #cee6ea;
+    border-radius: 50%;
     
+}
+.title{
+    margin: 20px;
+    color: #071144;
+    padding-top: 15px;
+    font-weight: bold;
+
     
 }
 .descriptive-paragraph{
-    color: black; 
+    color: #071144;
     font-size: 15px;
-    width: 300px;
-   
+    
+    width: 100%;
+
+    text-align: center;
+    
+    
 }
 .divs{
-    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
 }
 .button{
     width: 180px;
     height: 50px;
     border-radius: 15%;
-    background-color: cornflowerblue;
+    background-color: #0f4b5e;
     color: white;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: lighter;
+    margin-top: 10px;
+
 }
 .button:hover{
     background-color: white;
@@ -45,5 +72,29 @@ a:link{
     text-decoration: none;
 }
 h2{
-    color: rgb(107, 97, 252);
+    color: #071144;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .main-div{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+
+    }
+    .descriptive-paragraph{
+        width: 90%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 425px){
+    .title{
+        font-size: 20px;
+
+}
+@media screen and (max-width: 340px) {
+    .title{
+        font-size: 18px;
+        font-weight: bold;
+}
 }
