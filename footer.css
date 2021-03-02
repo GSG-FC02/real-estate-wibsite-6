@@ -26,7 +26,7 @@
 }
 
 .footer_title p {
-    margin: 0 20px;
+    margin: 0 10px;
 }
 #discover {
     color: yellow;
@@ -70,6 +70,27 @@
 
 /* End Footer */
 
+/* Media Quary */
+
 @media screen and (max-width : 768px) {
-    /* Header Section */
+    
+    /* Footer Section */
+
+    .footer_title {
+        font-size: 16PX;
+    }
+    .footer_title p {
+        margin: 0px 2px;
+    }
+    #footer_copyright {
+        font-size: 16px;
+        width: 276px;;
+    }
+}
+
+@media screen and (min-width : 768px) {
+    .footer_title {
+        font-size: 32PX;
+    }
+}
 
