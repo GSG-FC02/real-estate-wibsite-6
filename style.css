@@ -1,0 +1,88 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.main_container{
+	height: 400px;
+	background-image: url(real-estate-agent-with-house-model-keys.jpg);
+	background-position: center;
+	background-size:cover;
+
+}
+
+#main_container{
+	padding-top: 88px;
+	padding-left: 75px;
+}
+
+.main_container_header{
+	padding-bottom: 20px;
+	color: #0f4b5e;
+	font-size: 48px;
+}
+
+.main_header_content{
+	color: #071144;
+}
+
+.main_container_list{
+	list-style: none;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 120px;
+	display: flex;
+	text-align: center;
+
+	
+}
+
+.main_container_list_botton{
+	border: none;
+	background: unset;
+	font-size: 16px;
+	padding-left: 20px;
+	
+
+}
+
+.main_container_list_botton:hover{
+	background: white;
+	font-size: 17px;
+	font-weight: bold;
+	color: red;
+}
+
+form.main_container_search button{
+	height: 30px;
+	width: 30px;
+	border: 2px solid #071144;
+	background: #071144;
+	color: white;
+}
+
+.main_container_searchtext{
+	width: 350px;
+	height: 30px;
+	border: 1px solid #071144;
+}
+
+@media screen and (max-width: 768px){
+
+
+	.main_container_header{
+		width: auto;
+	}
+
+	#main_container{
+		width: auto;
+	}
+
+
+
+}
+
+
+
