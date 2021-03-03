@@ -1,0 +1,114 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+#contact-section{
+    
+    background-image:  linear-gradient(rgba(4, 72, 136, 0.6), rgba(79, 180, 248, 0.9)), url("contact-us-12.jpg" );
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+#contact-section .container h2{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    color: rgb(238, 235, 235);
+    letter-spacing: 2px;
+
+
+
+}
+#contact-section .container p{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    color: #fff;
+    letter-spacing: 3px;
+}
+.contact-form{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.form-info{
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgba(241, 245, 247, 0.4);
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+
+}
+input::placeholder{
+    color: rgb(201, 198, 198);
+
+}
+textarea{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgba(241, 245, 247, 0.4);
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+}
+textarea::placeholder{
+    color: rgb(201, 198, 198);
+}
+.submit{
+    width: 40%;
+    background: none;
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 3%;
+    border: 2px solid rgb(190, 190, 190);
+    color: rgb(173, 222, 245) ;
+}
+.submit:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+
+
+}
+
+/* Media quiery */
+@media screen and (max-width: 768px){
+    #contact-section .contact-form{
+        display: block;
+        width: 100%;
+        text-align: center;
+
+    }
+    #contact-section .submit{
+        width: 60%;
+
+    }
+}
