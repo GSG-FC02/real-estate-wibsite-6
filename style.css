@@ -4,15 +4,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+body{
+    background-color: #e9ebea;
 }
 .services_section{
     text-align: center;
-    background-color: #cee6ea;
+    background-color: #e9ebea;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 /* content style */
 .services_section_container{
