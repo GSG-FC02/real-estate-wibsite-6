@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <title> SIGN IN Page </title></head>
-<body>
 
-    <!-- Start Login  -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <title> SIGN IN Page </title>
+    </head>
 
-    <div id="login_signup">
-        <div class="form_content">
-            <div class="form_titles">
-                <!-- Tabs Titles -->
-                <h2 class="active"> Sign In </h2>
-                <h2 class="underline">Sign Up </h2>
+    <body>
+
+        <!-- Start Login  -->
+
+        <div id="login_signup">
+            <div class="form_content">
+                <div class="form_titles">
+                    <!-- Tabs Titles -->
+                    <h2 class="active"> Sign In </h2>
+                    <h2 class="underline">Sign Up </h2>
+                </div>
+                <form class="form">
+                    <input type="text" id="username" class="fadeIn second" name="login" placeholder="Username">
+                    <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+                    <input type="submit" id="submit" class="fadeIn fourth" value="Log In">
+                </form>
+                <div class="form_footer">
+                    <a class="underline" href="#"> Forgot Password</a>
+                </div>
             </div>
-            <form class="form">
-                <input type="text" id="username" class="fadeIn second" name="login" placeholder="Username">
-                <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-                <input type="submit" id="submit" class="fadeIn fourth" value="Log In">
-            </form>
-            <div class="form_footer">
-                <a class="underline" href="#"> Forgot Password</a>
+        </div>
+
+        <!-- End Login  -->
+
+        <!-- Stat Footer -->
+            
+        <footer class="footer">
+            <div class= "footer_title"> 
+                <p>Discover <i id="discover" class="fas fa-map-marker-alt"></i></p>
+                <p>a place <i id="place" class="fas fa-home"></i></p>
+                <p>you'll love <i id="heart" class="fas fa-heart"></i></p>
+                <p>to live</p> 
             </div>
-        </div>
-    </div>
 
-    <!-- End Login  -->
-
-    <!-- Stat Footer -->
+            <div class="footer_container">
+                <ul class="footer_icons">
+                    <a href="#"><li><i class="fab fa-facebook fa-2x"></i></li></a>
+                    <a href="#"><li><i class="fab fa-google-plus fa-2x"></i></li></a>
+                    <a href="#"><li><i class="fab fa-linkedin fa-2x"></i></li></a>
+                    <a href="#"><li><i class="fab fa-twitter fa-2x"></i></li></a>
+                </ul>
+                <span id="footer_copyright">Copyright 2020 &copy; All Rights Reserved </span>
+            </div>
+        </footer>
+            
+        <!-- End Footer -->
         
-    <footer class="footer">
-        <div class= "footer_title"> 
-            <p>Discover <i id="discover" class="fas fa-map-marker-alt"></i></p>
-            <p>a place <i id="place" class="fas fa-home"></i></p>
-            <p>you'll love <i id="heart" class="fas fa-heart"></i></p>
-            <p>to live</p> 
-        </div>
-
-        <div class="footer_container">
-            <ul class="footer_icons">
-                <a href="#"><li><i class="fab fa-facebook fa-2x"></i></li></a>
-                <a href="#"><li><i class="fab fa-google-plus fa-2x"></i></li></a>
-                <a href="#"><li><i class="fab fa-linkedin fa-2x"></i></li></a>
-                <a href="#"><li><i class="fab fa-twitter fa-2x"></i></li></a>
-            </ul>
-            <span id="footer_copyright">Copyright 2020 &copy; All Rights Reserved </span>
-        </div>
-    </footer>
-        
-    <!-- End Footer -->
-    
-</body>
+    </body>
 </html>
