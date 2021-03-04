@@ -116,7 +116,7 @@ h2{
 
 /*Profile Section at Home Page Style */
 .main_container{
-	height: 460px;
+	height: 110vh;
 	background-image: url(real-estate-agent-with-house-model-keys.jpg);
 	background-position: center;
 	background-size:cover;
@@ -301,4 +301,89 @@ h2{
         width: 276px;;
     }
 }
+
+/*About Us Page */
+.about_us{
+    height: 654px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /*background-color: white;*/
+    background-image: url(real-estate-agent-with-house-model-keys.jpg);
+	background-position: center;
+	background-size:cover;
+}
+
+.about_us_container{
+    border: 5px;
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 68%;
+    padding: 20px;
+    border-style: outset;
+    background-color: #b9c4c4 ;
+}
+
+.about_us_container{
+    width: 50%;
+   
+}   
+
+.about_us_container_header{
+    font-size: 55px;
+    color: #071144;
+    
+}
+
+.about_us_container_header:hover{
+    cursor: pointer;
+    font-size: 60px;
+}
+
+#letter{
+    color: #720101;
+    font-size: 73px;
+}
+
+.about_us_container_content{
+    text-align: justify;
+    font-size: 17px;
+    color: #04091d;
+}
+
+@media screen and (max-width: 768px){
+    .about_us_container{
+        height: 80%;
+    }
+    .about_us_container_content{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .about_us_container{
+        height: 77%;
+        width: 85%;
+    }
+     .about_us_container_header{
+         font-size: 33px;
+     }
+     
+     #letter{
+         font-size: 36px ;
+     }
+
+     .about_us_container_content{
+         font-size: 12px;
+     }
+  
+}
+
+
+
+
 
