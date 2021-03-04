@@ -106,13 +106,6 @@ h2{
 }
 }
 
-/*General Page Style */
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: sans-serif;
-}
 
 /*Profile Section at Home Page Style */
 .main_container{
