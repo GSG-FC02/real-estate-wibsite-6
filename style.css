@@ -1,10 +1,117 @@
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+/*General Page Style */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
 }
+
+/*Profile Section at Home Page Style */
+.main_container{
+	height: 460px;
+	background-image: url(real-estate-agent-with-house-model-keys.jpg);
+	background-position: center;
+	background-size:cover;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#main_container{
+	padding: 6%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main_container_header{
+	padding-bottom: 20px;
+	color: #0f4b5e;
+	font-size: 48px;
+}
+
+
+
+.main_header_content{
+	color: #071144;
+}
+
+.main_container_list{
+	list-style: none;
+	padding: 20px 0px 20px 120px;
+	display: flex;
+	text-align: center;
+
+	
+}
+
+.main_container_list_botton{
+	border: none;
+	background: unset;
+	font-size: 16px;
+	width: 60px;
+    height: 30px;
+    line-height: 30px;
+    color: #720101;
+}
+
+
+
+.main_container_list_botton:hover{
+	background: white;
+	font-size: 19px;
+	font-weight: bold;
+	color:#071144;
+	cursor: pointer;
+}
+.main_container_search{
+	display: flex;
+
+}
+.main_container_search button{
+	height: 30px;
+	width: 30px;
+	border: 2px solid #071144;
+	background: #071144;
+	color: white;
+}
+
+
+
+.main_container_searchtext{
+	width: 350px;
+	height: 30px;
+	border: 1px solid #071144;
+}
+
+/* Responsive style for screens that smaller than 768px*/
+
+@media screen and (max-width: 768px){
+   #main_container{
+	   width: 52%;
+	   padding: 2%;
+	  }
+
+   .main_container_header{
+	   font-size: 44px;
+   }
+}
+ /*Responsive style for screens that smaller than 375px*/
+@media screen and (max-width: 425px){
+	#main_container{
+		width: 60%;
+	}
+	.main_container_header{
+		font-size: 22px;
+	}
+
+	.main_container_list{
+		padding-left: 25px;
+	
+}}
+
 
 /* Start Footer */
 
