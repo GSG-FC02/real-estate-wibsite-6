@@ -277,7 +277,7 @@ h2.active {
 
 /*Profile Section at Home Page Style */
 .main_container{
-	height: 460px;
+	height: 527px;
 	background-image: url(real-estate-agent-with-house-model-keys.jpg);
 	background-position: center;
 	background-size:cover;
@@ -465,12 +465,15 @@ h2.active {
 
 /*About Us Page */
 .about_us{
-    height: 563px;
+    height: 654px;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: white;
+    /*background-color: white;*/
+    background-image: url(real-estate-agent-with-house-model-keys.jpg);
+	background-position: center;
+	background-size:cover;
 }
 
 .about_us_container{
