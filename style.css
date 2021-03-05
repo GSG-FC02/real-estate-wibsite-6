@@ -545,32 +545,44 @@ h2.active {
   
 }
 
-/* Contact us style */
-.container{
+/* start contact us page */
+.contact-container{
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 5px;
 }
 #contact-section{
     
-background-image:  linear-gradient(rgba(4, 72, 136, 0.6), rgba(79, 180, 248, 0.9)), url("contact-us-12.jpg" );
-    
-background-size: cover;
-    
-background-position: center;
-    
-height: 100%;
-    
-width: 100%;
-    
-padding-bottom: 2%;
+    background-image:  linear-gradient(rgba(4, 72, 136, 0.6), rgba(79, 180, 248, 0.9)), url("contact-us-12.jpg" );
+    background-size: cover;
+    background-position: center;
+    height: 82%;
+    width: 100%;
+    padding: 3%;
 }
-.container h2{
+.contact-container h2{
     text-align: center;
     text-decoration: underline;
     text-underline-position: under;
     color: rgb(238, 235, 235);
     letter-spacing: 2px;
+    padding-bottom: 2%;
+
+
+
 }
- .container p{
+.contact-container p{
     text-align: center;
     width: 70%;
     margin-left: auto;
@@ -578,12 +590,16 @@ padding-bottom: 2%;
     padding-bottom: 3%;
     color: #fff;
     letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .contact-form{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5px;
+    width: 100%;
 }
 .form-info{
     font-size: 16px;
@@ -591,13 +607,6 @@ padding-bottom: 2%;
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
 
-}
-.contact-form-box{
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
 }
 input{
     padding: 10px;
@@ -637,8 +646,9 @@ textarea::placeholder{
     text-align: center;
     cursor: pointer;
     letter-spacing: 2px;
+    margin-left: 3%;
     border: 2px solid rgb(190, 190, 190);
-    color: rgb(173, 222, 245);
+    color: rgb(173, 222, 245) ;
 }
 .submit:hover{
     border: 1px solid #fff;
@@ -647,7 +657,6 @@ textarea::placeholder{
 
 
 }
-
 /* Media quiery */
 @media screen and (max-width: 768px){
     #contact-section .contact-form{
@@ -661,8 +670,7 @@ textarea::placeholder{
 
     }
 }
-
-/* End contact us */
+/* end contact us page */
 
 
 
