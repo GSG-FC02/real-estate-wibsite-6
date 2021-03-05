@@ -116,7 +116,7 @@ h2{
 
 /*Profile Section at Home Page Style */
 .main_container{
-	height: 527px;
+	height: 110vh;
 	background-image: url(real-estate-agent-with-house-model-keys.jpg);
 	background-position: center;
 	background-size:cover;
