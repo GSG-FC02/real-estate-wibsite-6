@@ -1,3 +1,4 @@
+
 /* general page style  */
 
 
@@ -9,9 +10,90 @@
     box-sizing: border-box;
     
 }
+
+
+
 body{
     background-color: #e9ebea;
 }
+/* Header Style */
+
+.header {
+    background-color: #cee6ea;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    height: 100px;
+  }
+  
+  .header_logo {
+    font-family: 'Akaya Kanadaka', cursive;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header_title {
+    margin: 0;
+    padding-top: -8px;
+  }
+  
+  .header_img {
+    width: 160px; 
+    height: 38px;  
+    object-fit: cover;
+  }
+  
+  .header_nav_list {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-link {
+    padding: 0px;
+  }
+      
+  .nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+  }
+    
+  .nav-list a {
+    color: #071144;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .nav-list a:hover {
+    color: red;
+    font-size: 20px;
+  }
+  
+  #Button{
+    padding:6px;  
+    width:150px;
+    height:40px;
+    border-radius: 10%;
+    font-size: 20px;
+    color: rgb(236, 231, 231);
+    margin-right: 0px;
+    border-radius: 10px;
+    background-color: #ca1326;
+    font-weight: bold;
+  }
+  
+  #Button :hover{
+    background-color: rgb(141, 46, 46);
+  }
+ /* End Header Style */
 
 .services_section{
     text-align: center;
@@ -110,6 +192,149 @@ h2{
 }
 }
 
+/* Start Style For Login page */
+
+a {
+    color: #92badd;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* Form Style */
+
+#login_signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+}
+
+.form_content {
+    border-radius: 10px 10px 10px 10px;
+    background: white;
+    padding: 43px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.form_titles {
+    margin: 20px 8px 10px 8px; 
+    color: #cccccc;
+}
+
+h2 {
+    display:inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left:10px;
+}
+
+h2.inactive {
+    color: #cccccc;
+}
+
+h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+    cursor: pointer;
+}
+
+#username, #password {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    transition: all 0.5s ease-in-out;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#submit {
+    background-color: #56baed;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    border-radius: 5px 5px 5px 5px;
+    margin: 15px 8px 40px 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.form_footer {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    font-size: 20px;
+}
+
+/* Animation */
+
+.underline:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #56baed;
+    content: "";
+    transition: width 0.2s;
+}
+.underline:hover {
+    color: #0d0d0d;
+}
+
+.underline:hover:after {
+    width: 100%;
+}
+
+/* media Quary  */
+
+
+@media screen and (max-width : 768px) {
+    
+    h2 {
+        font-size: 20px;
+    }
+
+    #submit {
+        margin: 15px 8px 15px 8px;
+        padding: 10px 15px;
+        font-size: 16px;
+    } 
+    
+    #username, #password {
+        font-size: 16px;
+        padding: 15px 15px;
+    }
+
+    .form_footer {
+        padding: 18px;
+        font-size: 16px;
+    }
+}
+
+/* End Style For Login page */
 
 /*Profile Section at Home Page Style */
 .main_container{
@@ -379,3 +604,136 @@ h2{
      }
   
 }
+}
+
+/* start contact us page */
+.contact-container{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 5px;
+}
+#contact-section{
+    
+    background-image:  linear-gradient(rgba(4, 72, 136, 0.6), rgba(79, 180, 248, 0.9)), url("contact-us-12.jpg" );
+    background-size: cover;
+    background-position: center;
+    height: 82%;
+    width: 100%;
+    padding: 3%;
+}
+.contact-container h2{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    color: rgb(238, 235, 235);
+    letter-spacing: 2px;
+    padding-bottom: 2%;
+
+
+
+}
+.contact-container p{
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+    color: #fff;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.form-info{
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgba(241, 245, 247, 0.4);
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+
+}
+input::placeholder{
+    color: rgb(201, 198, 198);
+
+}
+textarea{
+    padding: 10px;
+    margin: 10px;
+    width: 70%;
+    background-color: rgba(241, 245, 247, 0.4);
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+}
+textarea::placeholder{
+    color: rgb(201, 198, 198);
+}
+.submit{
+    width: 40%;
+    background: none;
+    padding: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 33px;
+    text-align: center;
+    cursor: pointer;
+    letter-spacing: 2px;
+    margin-left: 3%;
+    border: 2px solid rgb(190, 190, 190);
+    color: rgb(173, 222, 245) ;
+}
+.submit:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+
+
+}
+/* Media quiery */
+@media screen and (max-width: 768px){
+    #contact-section .contact-form{
+        display: block;
+        width: 100%;
+        text-align: center;
+
+    }
+    #contact-section .submit{
+        width: 60%;
+
+    }
+}
+/* end contact us page */
+
+
+
+
+
