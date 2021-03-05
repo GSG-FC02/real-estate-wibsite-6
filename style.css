@@ -1,8 +1,5 @@
 
 /* general page style  */
-
-
-
 *{
     font-family: sans-serif;
     margin: 0;
@@ -10,14 +7,10 @@
     box-sizing: border-box;
     
 }
-
-
-
 body{
     background-color: #e9ebea;
 }
-/* Header Style */
-
+/* Style Header*/
 .header {
     background-color: #cee6ea;
     display: flex;
@@ -34,7 +27,8 @@ body{
     justify-content: center;
     align-items: center;
   }
-
+  
+  
   .header_title {
     margin: 0;
     padding-top: -8px;
@@ -76,7 +70,7 @@ body{
     color: red;
     font-size: 20px;
   }
-  
+    
   #Button{
     padding:6px;  
     width:150px;
@@ -93,8 +87,11 @@ body{
   #Button :hover{
     background-color: rgb(141, 46, 46);
   }
- /* End Header Style */
-
+  #Button a{
+      color: white;
+      text-decoration: none;
+  }
+/*End Style Header */
 .services_section{
     text-align: center;
     background-color: #e9ebea;
@@ -603,7 +600,6 @@ h2.active {
          font-size: 12px;
      }
   
-}
 }
 
 /* start contact us page */
