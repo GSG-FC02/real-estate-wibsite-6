@@ -111,12 +111,11 @@ h2{
 
 /* General Style*/ 
 
-html {
-    background-color: #56baed;
-}
+
 
 body {
     height: 100vh;
+    background-color: #56baed;
 }
 
 * {
