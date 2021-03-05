@@ -1,0 +1,203 @@
+/* Global Style */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Header Style */
+
+.header {
+  background-color: #cee6ea;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid;
+  height: 100px;
+}
+
+.header_logo {
+  font-family: 'Akaya Kanadaka', cursive;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header_title {
+  margin: 0;
+  padding-top: -8px;
+}
+
+.header_img {
+  width: 160px; 
+  height: 38px;  
+  object-fit: cover;
+}
+
+.header_nav_list {
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 0px;
+}
+    
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  list-style-type: none;
+}
+  
+.nav-list a {
+  color: #071144;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-list a:hover {
+  color: red;
+  font-size: 20px;
+}
+  
+#Button{
+  padding:6px;  
+  width:150px;
+  height:40px;
+  border-radius: 10%;
+  font-size: 20px;
+  color: rgb(236, 231, 231);
+  margin-right: 0px;
+  border-radius: 10px;
+  background-color: #ca1326;
+  font-weight: bold;
+}
+
+#Button :hover{
+  background-color: rgb(141, 46, 46);
+}
+#Button a{
+  color: white;
+  text-decoration: none;
+}
+
+.Rent{
+  margin-top: 150px;
+  text-align: center;
+}
+.Rent button{
+ background-color: lightslategrey;
+
+}
+.card-img-top{
+transition: ease 2s;
+width: 300px;
+height: 300px;
+}
+
+.Rent .card:hover{
+box-shadow: -5px 5px grey;
+
+}
+  
+.Buy{
+  margin-top: 130px;
+  text-align: center;
+ 
+  
+  
+  }
+  h1{
+    letter-spacing: 20px;
+    padding-bottom:30px;
+  }
+  .Buy button{
+   margin-bottom: 15px;
+  background-color:rgb(0, 0, 0);
+  
+  }
+  
+  .Buy .card{
+  display: block;
+  padding-top: 0px;
+  box-shadow: 0px 0px 5px 2px #000;
+  }
+
+  .card-body ul li {
+
+    list-style: none;
+    
+    
+    }
+    /* Start Footer */
+
+.footer {
+  background-color: #0f4b5e;
+  color: white;
+  padding: 2px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer_title {
+  font-size: 25px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer_title p {
+  margin: 0 10px;
+}
+#discover {
+  color: yellow;
+}
+
+#place {
+  color:violet
+}
+
+#heart {
+  color: red;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 50px;
+  flex-direction: column;
+}
+
+.footer_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.footer_icons a {
+  color: white;
+}
+
+.footer_icons li {
+  padding-left: 20px;
+}
+
+.footer_icons li:hover {
+  color: blue
+}
+
+/* End Footer */
