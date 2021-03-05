@@ -1,6 +1,8 @@
 # Relax - Real Estate Website
 A simble website for real estate created with Html  and Css languages.
 
+### Live Link [here](https://gsg-fc02.github.io/real-estate-wibsite-6/)
+
 ## Introduction
 The project is a real estate website has been created to people who look for a house to live in. The website displays a large number of bildings with so many options. Our team created this project while we were under the training of Gaza Sky Geeks Code Academy - Fundamentals Course.
 
